@@ -39,6 +39,9 @@ set -e
 #
 # Note: No white space in the project name!
 
+echo
+echo "kicad-init.sh v2"
+echo
 
 # Test if curl is installed
 command -v curl > /dev/null
