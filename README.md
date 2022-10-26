@@ -5,10 +5,10 @@
 
 [Placeholder for missing photographs](./images/placeholder-for-missing-photographs.png)
 
-[![GitHub version](https://img.shields.io/github/release/berrak/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/berrak/kicad-init-file-structure/releases/latest)
-[![GitHub Release Date](https://img.shields.io/github/release-date/berrak/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/berrak/kicad-init-file-structure/releases/latest)
-[![GitHub stars](https://img.shields.io/github/stars/berrak/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/berrak/kicad-init-file-structure/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/berrak/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/berrak/kicad-init-file-structure/issues)
+[![GitHub version](https://img.shields.io/github/release/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/kicad-init-file-structure/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/kicad-init-file-structure/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/kicad-init-file-structure/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/kicad-init-file-structure/issues)
 ![Badge Hit Counter](https://visitor-badge.laobi.icu/badge?page_id=berrak_berrak/kicad-init-file-structure)
 
 
