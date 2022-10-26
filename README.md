@@ -5,6 +5,13 @@
 
 [Placeholder for missing photographs](./images/placeholder-for-missing-photographs.png)
 
+[![GitHub version](https://img.shields.io/github/release/berrak/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/berrak/kicad-init-file-structure/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/berrak/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/berrak/kicad-init-file-structure/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/berrak/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/berrak/kicad-init-file-structure/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/berrak/berrak/kicad-init-file-structure.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/berrak/kicad-init-file-structure/issues)
+![Badge Hit Counter](https://visitor-badge.laobi.icu/badge?page_id=berrak_berrak/kicad-init-file-structure)
+
+
 Initiates the disk folder structure with the `kicad-init.sh` script.
 Files and directories are named identical except for the KiCad-project name.
 
@@ -80,3 +87,6 @@ Start KiCad in the `new-project-name/kicad6` directory, create the new project (
 * **/new-project-name/datasheets** - important datasheets
 
 
+## Planned Improvements/Changes
+
+For planned changes, improvements, and possible encountered issues, please visit the [Github issues tracker](https://github.com/berrak/berrak/kicad-init-file-structure/issues).
