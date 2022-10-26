@@ -78,8 +78,10 @@ OUTDIR_IMG="$(pwd)/$PROJECT_NAME/images"
 OUTDIR_SCHEMATICS="$(pwd)/$PROJECT_NAME/schematic-diagram"
 OUTDIR_DATASHEETS="$(pwd)/$PROJECT_NAME/datasheets/application-notes"
 OUTDIR_DWG="$(pwd)/$PROJECT_NAME/board-dimensions"
+
+# The gitignore file exclude these from upload to GitHub (default)
 OUTDIR_PIVATE_NOTES="$(pwd)/$PROJECT_NAME/mynotes"
-OUTDIR_PIVATE_costs="$(pwd)/$PROJECT_NAME/mycosts"
+OUTDIR_PIVATE_COSTS="$(pwd)/$PROJECT_NAME/mycosts"
 
 OUTDIR_CAD1="$(pwd)/$PROJECT_NAME/kicad6/$PROJECT_NAME-footprints.pretty"
 OUTDIR_CAD2="$(pwd)/$PROJECT_NAME/kicad6/$PROJECT_NAME-schematic-symbols"
