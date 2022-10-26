@@ -89,4 +89,4 @@ Start KiCad in the `new-project-name/kicad6` directory, create the new project (
 
 ## Planned Improvements/Changes
 
-For planned changes, improvements, and possible encountered issues, please visit the [Github issues tracker](https://github.com/berrak/berrak/kicad-init-file-structure/issues).
+For planned changes, improvements, and possible encountered issues, please visit the [Github issues tracker](https://github.com/berrak/kicad-init-file-structure/issues).
