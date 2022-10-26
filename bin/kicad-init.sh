@@ -105,9 +105,9 @@ do
 done
 
 # Copy .gitignore, LICENSE.md and the README.md and add these to the hierarchy
-curl https://raw.githubusercontent.com/berrak/kicad-init-file-structure/LICENSE.md > $(pwd)/"$PROJECT_NAME"/LICENSE.md
-curl https://raw.githubusercontent.com/berrak/kicad-init-file-structure/README.md > $(pwd)/"$PROJECT_NAME"/README.md
-curl https://raw.githubusercontent.com/berrak/kicad-init-file-structure/.gitignore > $(pwd)/"$PROJECT_NAME"/.gitignore
+curl https://raw.githubusercontent.com/berrak/kicad-init-file-structure/master/LICENSE.md > $(pwd)/"$PROJECT_NAME"/LICENSE.md
+curl https://raw.githubusercontent.com/berrak/kicad-init-file-structure/master/README.md > $(pwd)/"$PROJECT_NAME"/README.md
+curl https://raw.githubusercontent.com/berrak/kicad-init-file-structure/master/.gitignore > $(pwd)/"$PROJECT_NAME"/.gitignore
 
 echo "Copied .gitignore, README.md and the LICENSE.md files, please update these files to fit your project: $PROJECT_NAME"
 
