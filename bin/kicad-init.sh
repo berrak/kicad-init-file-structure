@@ -2,7 +2,7 @@
 set -e
 #The MIT License (MIT)
 #
-#Copyright (c) 2021 Debinix Team
+#Copyright (c) 2022 Debinix Team
 #
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -24,11 +24,18 @@ set -e
 
 # USAGE:
 
-# Copy this file to '/usr/local/bin' Change the working directory
-# to the root where you keep your KiCad projects. Run the script with
-# first argument as the project name, e.g.
+# Copy this file to '/usr/local/bin' 
+# or
+# Copy this file to $HOME/.local/bin
+# or
+# mkdir $HOME/bin
+# Copy this file to $HOME/bin
+# Add this folder to $PATH
 #
-#   bash kicad-init 'my-new-kicad-project'.
+# Change the working directory to the root where you keep your # KiCad
+#  projects. Run the script with first argument as the project name, e.g.
+#
+#   bash kicad-init.sh 'my-new-kicad-project'.
 #
 # Note: No white space in the project name!
 
