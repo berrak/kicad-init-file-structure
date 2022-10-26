@@ -1,32 +1,42 @@
-# KiCAD init project folder structure 
+# KiCAD init project folder structure v2
+# NEW - migrated original for future updates
 
 ![Placeholder for missing photographs](./images/placeholder-for-missing-photographs.png)
 
 [Placeholder for missing photographs](./images/placeholder-for-missing-photographs.png)
 
-The `kicad-init` script creates directories for a new project. The shell script initiates the disk folder structure in a consistent manner.
+Initiates the disk folder structure with the `kicad-init.sh` script.
 Files and directories are named identical except for the KiCad-project name.
 
-There are some zero bytes files that acts as placeholders for missing files (like the above image), and these should be replaced with real files.
+Replace the zero-sized placeholder files with actual files.
 
 ## Install the script
 
 Download or clone this repository, and then copy the shell script into your $PATH
 
         cd bin
-        sudo cp ./kicad-init.sh /usr/local/bin/kicad-init
+        sudo cp ./kicad-init.sh /usr/local/bin/kicad-init.sh
+
+alternatively:
+
+        cd bin
+        cp ./kicad-init.sh $HOME/.local/bin/kicad-init.sh
 
 ## Run script
 
-Run the script in the root of the new KiCad project, with the new project name as argument.
+Run the script in the root of the new KiCad project, with the new project name as an argument.
 
         mkdir ~/KICAD-2022
         cd KICAD-2022
-        bash kicad-init "new-project-name"
+        bash kicad-init.sh "new-project-name"
 
-Note that the directory root for `new-project-name` is setup as a potential github repository, do `git init` to get started.
+Set up the `new-project-name` as a potential GitHub repository, and do `git init` to get started.
 
-The script creates following directory structure for the new KiCad project:
+Install the useful `tree` command
+
+        sudo install tree
+        
+The script creates the following directory structure for the new KiCad project:
 
         ~/KICAD-2022/new-project-name$ tree -a
         ├── 3rd-parties-libraries
@@ -55,7 +65,7 @@ The script creates following directory structure for the new KiCad project:
 
 ## Start KiCad
 
-Now, start KiCad in the `new-project-name/kicad6` directory, create the new project (`File->New->Project`), and name the new project `new-project-name`. KiCad will create this directory, and populate it with the standard KiCad project-files.
+Start KiCad in the `new-project-name/kicad6` directory, create the new project (`File->New->Project`), and name the new project `new-project-name`. KiCad will create this directory and populate it with the standard KiCad project files.
 
 ## Directory contents
 
@@ -65,17 +75,8 @@ Now, start KiCad in the `new-project-name/kicad6` directory, create the new proj
 * **/new-project-name/kicad6/new-project-name-footprints.pretty** - footprints drawn by yourself
 * **/new-project-name/kicad6/new-project-name-3D-models** - 3D-models created by yourself
 * **/new-project-name/fabrication** - fabrication output files; eg bom, gerbers, assembly footprint position
-* **/new-project-name/images** - photographs of the created design
+* **/new-project-name/images** - KiCad rendered images of the created design
 * **/new-project-name/schematic-diagram** - schematic diagram for the created design
 * **/new-project-name/datasheets** - important datasheets
 
-## License Information
--------------------
 
-This creation is _**open source**_! 
-
-Please review the [LICENCE](LICENSE.md) file for license information. 
-
-Distributed as-is; no warranty is given.
-
-- Greetings from the Debinix Team.
