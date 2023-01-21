@@ -14,10 +14,11 @@ Sometimes it makes sense to continue with a new design based on an existing proj
 8. Done!
 
 
-## Install rpl.
+## Install rpl with python pip3
 
 ```
-sudo apt-get install rpm
+pip3 install rpl
+rpl --version
 ```
 
 ## Create a new directory and copy files recursively.
