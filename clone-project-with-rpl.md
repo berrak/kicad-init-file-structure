@@ -30,11 +30,11 @@ mkdir new-project
 cp -r old-project/* new-project
 ```
 
-Remove the `fabrication` files, the `cache` file, and the `backup` directory in the KiCads home directory. Also, remove all pdf-datasheets and the ` tmp`-directory, which rpl does not handle. Finally, copy the datasheets manually and delete any temporary files to save space.
+Remove the `fabrication` files in the `gerbers` and `assembly` folders, the `cache` file, and the `backup` directory in the KiCads home directory. Also, remove all pdf-datasheets and the ` tmp`-directory, which rpl does not handle.
 
 ## Use rpl to replace text string and paths inside KiCad files.
 
-If the rpl simulated run results in failures, see above.
+If the rpl simulated run results in failures, see above. Errors can be perfectly normal for non text files, like images etc.
 
 ```
 cd new-project-name
@@ -43,6 +43,6 @@ rpl -R old-project-name new-project-name *
 ```
 ## Rename files and the KiCad home directory.
 
-Finally, rename a few files in the KiCad directory with the prefix `new-project-name` and update the directory path with the new project name.
+Finally, rename a few files in the KiCad directory with the prefix `new-project-name` and update the directory path with the new project name. Copy the datasheets manually and delete any temporary files to save space.
 
 Open the new project, and everything is now ready.
